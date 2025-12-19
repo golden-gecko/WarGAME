@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Resources -->
+
+	<xs:simpleType name="ResourceAmountType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="FINITE" />
+			<xs:enumeration value="INFINITE" />
+			<xs:enumeration value="RESTORE" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ResourcePositionType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="EXACT" />
+			<xs:enumeration value="EVERYWHERE" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ResourceSizeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="BOX" />
+			<xs:enumeration value="CIRCLE" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="resource">
+		<xs:sequence>
+			<xs:element name="amount" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="type" type="ResourceAmountType" use="required" />
+					<xs:attribute name="speed" type="xs:float" />
+					<xs:attribute name="value" type="xs:float" />
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="position" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="type" type="ResourcePositionType" use="required" />
+					<xs:attribute name="x" type="xs:float" />
+					<xs:attribute name="y" type="xs:float" />
+					<xs:attribute name="z" type="xs:float" />
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="size" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="type" type="ResourceSizeType" use="required" />
+					<xs:attribute name="radius" type="xs:float" />
+					<xs:attribute name="x" type="xs:float" />
+					<xs:attribute name="y" type="xs:float" />
+					<xs:attribute name="z" type="xs:float" />
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="mesh" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="name" type="xs:string" use="required" />
+					<xs:attribute name="material" type="xs:string" />
+					<xs:attribute name="x" type="xs:float" />
+					<xs:attribute name="y" type="xs:float" />
+					<xs:attribute name="z" type="xs:float" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required" />
+	</xs:complexType>
+
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="resources">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="resource" type="resource" minOccurs="0" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

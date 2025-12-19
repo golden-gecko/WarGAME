@@ -1,0 +1,19 @@
+
+material stream
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			lighting off
+			scene_blend add
+
+			texture_unit
+			{
+				texture stream.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}

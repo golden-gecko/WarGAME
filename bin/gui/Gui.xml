@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout>
+<Window Type="DefaultWindow" Name="Root" >
+<Property Name="Alpha" Value="0.750000" />
+<Property Name="UnifiedAreaRect" Value="{{0.000000,0.000000},{0.000000,0.000000},{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Window Type="TaharezLook/FrameWindow" Name="PartDescViewer" >
+<Property Name="CaptionColour" Value="00FFFFFF" />
+<Property Name="CloseButtonEnabled" Value="False" />
+<Property Name="DragMovingEnabled" Value="False" />
+<Property Name="EWSizingCursorImage" Value="set:TaharezLook image:MouseEsWeCursor" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="NESWSizingCursorImage" Value="set:TaharezLook image:MouseNeSwCursor" />
+<Property Name="NSSizingCursorImage" Value="set:TaharezLook image:MouseNoSoCursor" />
+<Property Name="NWSESizingCursorImage" Value="set:TaharezLook image:MouseNwSeCursor" />
+<Property Name="SizingEnabled" Value="False" />
+<Property Name="Text" Value="part desc viewer" />
+<Property Name="TitlebarEnabled" Value="True" />
+<Property Name="TitlebarFont" Value="Commonwealth-10" />
+<Property Name="UnifiedAreaRect" Value="{{0.010000,0.000000},{0.010000,0.000000},{0.990000,0.000000},{0.990000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+<Window Type="TaharezLook/Listbox" Name="PartDescViewer/List" >
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.050000,0.000000},{0.100000,0.000000},{0.300000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/StaticText" Name="PartDescViewer/Text" >
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="Text" Value="no part desc selected" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.350000,0.000000},{0.100000,0.000000},{0.950000,0.000000},{0.450000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/StaticImage" Name="PartDescViewer/Image" >
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.350000,0.000000},{0.500000,0.000000},{0.950000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+</Window>
+<Window Type="TaharezLook/FrameWindow" Name="Console" >
+<Property Name="CaptionColour" Value="00FFFFFF" />
+<Property Name="CloseButtonEnabled" Value="False" />
+<Property Name="DragMovingEnabled" Value="False" />
+<Property Name="EWSizingCursorImage" Value="set:TaharezLook image:MouseEsWeCursor" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="NESWSizingCursorImage" Value="set:TaharezLook image:MouseNeSwCursor" />
+<Property Name="NSSizingCursorImage" Value="set:TaharezLook image:MouseNoSoCursor" />
+<Property Name="NWSESizingCursorImage" Value="set:TaharezLook image:MouseNwSeCursor" />
+<Property Name="SizingEnabled" Value="False" />
+<Property Name="Text" Value="console" />
+<Property Name="TitlebarEnabled" Value="True" />
+<Property Name="TitlebarFont" Value="Commonwealth-10" />
+<Property Name="UnifiedAreaRect" Value="{{0.010000,0.000000},{0.010000,0.000000},{0.990000,0.000000},{0.990000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+<Window Type="TaharezLook/Editbox" Name="Console/Command" >
+<Property Name="MaxTextLength" Value="1073741823" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTextBar" />
+<Property Name="UnifiedAreaRect" Value="{{0.020000,0.000000},{0.940000,0.000000},{0.980000,0.000000},{0.980000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/Listbox" Name="Console/Log" >
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.020000,0.000000},{0.060000,0.000000},{0.980000,0.000000},{0.920000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+</Window>
+<Window Type="TaharezLook/FrameWindow" Name="PlayerViewer" >
+<Property Name="CaptionColour" Value="00FFFFFF" />
+<Property Name="CloseButtonEnabled" Value="False" />
+<Property Name="DragMovingEnabled" Value="False" />
+<Property Name="EWSizingCursorImage" Value="set:TaharezLook image:MouseEsWeCursor" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="NESWSizingCursorImage" Value="set:TaharezLook image:MouseNeSwCursor" />
+<Property Name="NSSizingCursorImage" Value="set:TaharezLook image:MouseNoSoCursor" />
+<Property Name="NWSESizingCursorImage" Value="set:TaharezLook image:MouseNwSeCursor" />
+<Property Name="SizingEnabled" Value="False" />
+<Property Name="Text" Value="player viewer" />
+<Property Name="TitlebarEnabled" Value="True" />
+<Property Name="TitlebarFont" Value="Commonwealth-10" />
+<Property Name="UnifiedAreaRect" Value="{{0.010000,0.000000},{0.011000,0.000000},{0.990000,0.000000},{0.990000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+<Window Type="TaharezLook/Listbox" Name="PlayerViewer/List" >
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.050000,0.000000},{0.100000,0.000000},{0.300000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/StaticText" Name="PlayerViewer/Text" >
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="Text" Value="no player selected" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.350000,0.000000},{0.100000,0.000000},{0.950000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+</Window>
+<Window Type="TaharezLook/FrameWindow" Name="ObjectDescViewer" >
+<Property Name="CaptionColour" Value="00FFFFFF" />
+<Property Name="CloseButtonEnabled" Value="False" />
+<Property Name="DragMovingEnabled" Value="False" />
+<Property Name="EWSizingCursorImage" Value="set:TaharezLook image:MouseEsWeCursor" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="NESWSizingCursorImage" Value="set:TaharezLook image:MouseNeSwCursor" />
+<Property Name="NSSizingCursorImage" Value="set:TaharezLook image:MouseNoSoCursor" />
+<Property Name="NWSESizingCursorImage" Value="set:TaharezLook image:MouseNwSeCursor" />
+<Property Name="SizingEnabled" Value="False" />
+<Property Name="Text" Value="object desc viewer" />
+<Property Name="TitlebarEnabled" Value="True" />
+<Property Name="TitlebarFont" Value="Commonwealth-10" />
+<Property Name="UnifiedAreaRect" Value="{{0.010000,0.000000},{0.010000,0.000000},{0.990000,0.000000},{0.990000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+<Window Type="TaharezLook/Listbox" Name="ObjectDescViewer/List" >
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.050000,0.000000},{0.100000,0.000000},{0.300000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/StaticImage" Name="ObjectDescViewer/Image" >
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.516888,0.000000},{0.418695,0.000000},{0.744621,0.000000},{0.732424,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+</Window>
+<Window Type="TaharezLook/FrameWindow" Name="PartViewer" >
+<Property Name="CaptionColour" Value="00FFFFFF" />
+<Property Name="CloseButtonEnabled" Value="False" />
+<Property Name="DragMovingEnabled" Value="False" />
+<Property Name="EWSizingCursorImage" Value="set:TaharezLook image:MouseEsWeCursor" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="NESWSizingCursorImage" Value="set:TaharezLook image:MouseNeSwCursor" />
+<Property Name="NSSizingCursorImage" Value="set:TaharezLook image:MouseNoSoCursor" />
+<Property Name="NWSESizingCursorImage" Value="set:TaharezLook image:MouseNwSeCursor" />
+<Property Name="SizingEnabled" Value="False" />
+<Property Name="Text" Value="part viewer" />
+<Property Name="TitlebarEnabled" Value="True" />
+<Property Name="TitlebarFont" Value="Commonwealth-10" />
+<Property Name="UnifiedAreaRect" Value="{{0.010000,0.000000},{0.010000,0.000000},{0.990000,0.000000},{0.990000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+<Window Type="TaharezLook/Listbox" Name="PartViewer/List" >
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.050000,0.000000},{0.100000,0.000000},{0.300000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/StaticText" Name="PartViewer/Text" >
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="Text" Value="no part selected" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.350000,0.000000},{0.100000,0.000000},{0.950000,0.000000},{0.450000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/StaticImage" Name="PartViewer/Image" >
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.350000,0.000000},{0.524521,0.000000},{0.950000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+</Window>
+<Window Type="TaharezLook/FrameWindow" Name="ObjectViewer" >
+<Property Name="CaptionColour" Value="00FFFFFF" />
+<Property Name="CloseButtonEnabled" Value="False" />
+<Property Name="DragMovingEnabled" Value="False" />
+<Property Name="EWSizingCursorImage" Value="set:TaharezLook image:MouseEsWeCursor" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="NESWSizingCursorImage" Value="set:TaharezLook image:MouseNeSwCursor" />
+<Property Name="NSSizingCursorImage" Value="set:TaharezLook image:MouseNoSoCursor" />
+<Property Name="NWSESizingCursorImage" Value="set:TaharezLook image:MouseNwSeCursor" />
+<Property Name="SizingEnabled" Value="False" />
+<Property Name="Text" Value="object viewer" />
+<Property Name="TitlebarEnabled" Value="True" />
+<Property Name="TitlebarFont" Value="Commonwealth-10" />
+<Property Name="UnifiedAreaRect" Value="{{0.010000,0.000000},{0.010000,0.000000},{0.990000,0.000000},{0.990000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+<Window Type="TaharezLook/Listbox" Name="ObjectViewer/List" >
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.050000,0.000000},{0.100000,0.000000},{0.300000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/StaticImage" Name="ObjectViewer/Image" >
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.350000,0.000000},{0.500000,0.000000},{0.950000,0.000000},{0.950000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/StaticText" Name="ObjectViewer/Text" >
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="Text" Value="no object selected" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.350000,0.000000},{0.100000,0.000000},{0.650000,0.000000},{0.450000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+<Window Type="TaharezLook/Listbox" Name="ObjectViewer/OrderList" >
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.700000,0.000000},{0.100000,0.000000},{0.950000,0.000000},{0.450000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+</Window>
+</Window>
+<Window Type="TaharezLook/StaticText" Name="GameInfo" >
+<Property Name="Alpha" Value="0.750000" />
+<Property Name="BackgroundImage" Value="set:TaharezLook image:StaticBackdrop" />
+<Property Name="BottomFrameImage" Value="set:TaharezLook image:StaticBottom" />
+<Property Name="BottomLeftFrameImage" Value="set:TaharezLook image:StaticBottomLeft" />
+<Property Name="BottomRightFrameImage" Value="set:TaharezLook image:StaticBottomRight" />
+<Property Name="FrameEnabled" Value="False" />
+<Property Name="LeftFrameImage" Value="set:TaharezLook image:StaticLeft" />
+<Property Name="RightFrameImage" Value="set:TaharezLook image:StaticRight" />
+<Property Name="TopFrameImage" Value="set:TaharezLook image:StaticTop" />
+<Property Name="TopLeftFrameImage" Value="set:TaharezLook image:StaticTopLeft" />
+<Property Name="TopRightFrameImage" Value="set:TaharezLook image:StaticTopRight" />
+<Property Name="UnifiedAreaRect" Value="{{0.010000,0.000000},{0.010000,0.000000},{0.250000,0.000000},{0.200000,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+</Window>
+<Window Type="TaharezLook/Listbox" Name="SelectionMenu" >
+<Property Name="Alpha" Value="0.750000" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.283203,0.000000},{0.346056,0.000000},{0.615235,0.000000},{0.482825,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+</Window>
+<Window Type="TaharezLook/Listbox" Name="OrderMenu" >
+<Property Name="Alpha" Value="0.750000" />
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.073047,0.000000},{0.387023,0.000000},{0.317187,0.000000},{0.701908,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+</Window>
+<Window Type="TaharezLook/Listbox" Name="ConstructionMenu" >
+<Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+<Property Name="UnifiedAreaRect" Value="{{0.290909,0.000000},{0.331519,0.000000},{0.525235,0.000000},{0.710771,0.000000}}" />
+<Property Name="UnifiedMaxSize" Value="{{1.000000,0.000000},{1.000000,0.000000}}" />
+<Property Name="Visible" Value="False" />
+</Window>
+</Window>
+</GUILayout>

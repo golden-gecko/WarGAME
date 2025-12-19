@@ -1,0 +1,26 @@
+
+stream
+{
+	material			stream
+	particle_width		1
+	particle_height		1
+	cull_each			true
+	quota				200
+
+	emitter Point
+	{
+		angle				15
+		emission_rate		50
+		time_to_live		1.7
+		direction			0 0 -1
+		velocity_min		12
+		velocity_max		14
+	}
+
+	affector ColourFader
+	{
+		red		-0.7
+		green	-0.7
+		blue	-0.7
+	}
+}

@@ -1,0 +1,52 @@
+
+material armfav0
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+
+			texture_unit
+			{
+				texture armfav.bmp
+			}
+		}
+
+	}
+
+}
+
+material armfav1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.0588235 0.0588235 0.0588235 1
+		}
+
+	}
+
+}
+
+material armfav2
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0 0 0 1
+		}
+
+	}
+
+}

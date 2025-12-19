@@ -1,0 +1,150 @@
+* weapons
+
+	+ types
+		- convencional
+		- energetic
+		- flame
+
+	+ material has 'factor' (how much damage unit get) for each weapon type
+
+* units
+
+	+ each unit has 'hit points' (depends on parts used to build unit)
+		- unit with higher HP will fight much longer
+
+	+ if unit is damaged
+		- HP below 70% unit skills decrease
+		- HP below 80% unit can only move (good time for retreat)
+		- HP below 90% unit cannot even move
+
+	+ experience
+		- each damaged and killed enemy unit gives little experience bonus
+		- more XP means better aiming, little damage bonus, avoiding missiles (not sure, hard to implement)
+		- ranks
+
+	+ statistics
+		- travelled distance
+		- kills, damage given or taken, fired missiles
+
+* unit parts
+
+	+ each part has material type
+		- has weight (less weight means higher speed)
+		- has durability (more durability means higher costs)
+		- has cost (how much resources we need to built unit)
+
+	+ body
+		- different types (extra light, light, medium, heavy, extra heavy)
+
+	+ chassis
+		- different types (ground, water surface, air, underwater or any combinations)
+		- 4 wheel (high speed, low grip, light)
+		- 8 wheel (medium speed, medium grip, medium)
+		- tracks (low speed, high grip, heavy)
+		- amphibious 4 wheel (high speed, low grip, slower and heavier than 4 wheel, but can move on the water surface)
+		- amphibious tracks (low speed, high grip, slower and heavier than tracks, but can move on the water surface)
+
+	+ engine
+		- has power
+		- power describes has fast unit can move (speed depends on unit weight)
+		- has basic fuel tank
+
+	+ additional fuel tank
+		- has capacity
+
+	+ each weapon has basic ammunition storage
+
+	+ missile (to complex?)
+		- two types (basic, with own propulsion)
+		- moves straight until hit sth or fall down
+		- if has own propulsion, has power (speed depends on weight, can aim near objects, e.g. anti-air rockets)
+		- has damage
+		- has radius
+		- explodes on colision (or maybe after specific time?, e.g. anti-air cannons, time is set by unit)
+
+	+ canon
+		- fires missiles straight at target
+		- has reload time
+
+	+ mortar
+		- fires missiles up (good against targets behind hills or walls)
+		- has reload time
+
+	+ rocket
+		- has damage
+		- has radius
+		- has own propulsion (has power, speed depends on weight)
+		- explodes on colisions
+
+	+ rocket launching pad
+		- fires big rockets
+
+	+ anti-rocket launching pad
+		- detects rockets within specific range
+		- fires anti-rockets
+
+	+ laser gun
+		- has power (how much energy each shot consumes)
+		- has recharge time
+		- power describes range (in metres), damage (per second), time (how long gun is firing)
+
+	+ flamethrower
+		- has pressure
+		- pressure describes range (in meters), damage (per second), burning time (in seconds)
+
+	+ additional ammunition storage
+		- has capacity
+
+	+ shield generator (force field reducing damage)
+		- has power (how much damage can absorb before it turns off)
+		- has absorb factor (from 0.0 to 1.0, if 1.0 all damage from missile is absorbed)
+		- has recharging time (when overloaded starts to recharge)
+		- has radius (can protect other unit, if they are in range)
+		- generated at different sides (front, back, left, right, top, bottom or any combinations)
+
+	+ invisibility
+		- ???
+
+	+ radar
+		- has range
+		- detects units and buildings
+
+	+ jammer
+		- has range
+		-
+
+* resources
+
+	+ can be finite or infinite
+	+ can be gathered only in specific points or everywhere
+
+* buildings
+
+	+ resource buildings
+		- produces resources
+		- give resources all the time or must be placed near some resources (depends on resource type)
+
+	+ factory
+		- unit design
+		- unit production
+
+	+ walls
+		- protects against missiles and unit movement
+
+	+ turrets
+		- if is damaged (sth like damaging units)
+		- can be composed into walls
+
+* turret parts
+
+	+ body
+		- few types (light, medium, heavy)
+
+	+ material type
+		- same as unit material
+
+	+ weapon
+		- same as unit weapons
+
+	+ shield generator
+		- same as unit shield generators

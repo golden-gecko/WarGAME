@@ -1,0 +1,72 @@
+
+material blue
+{
+	receive_shadows off
+	
+	technique
+	{
+		pass
+		{
+			ambient 0 0 1 1	
+			diffuse 0 0 0 1
+		}
+	}
+}
+
+material green
+{
+	receive_shadows off
+	
+	technique
+	{
+		pass
+		{
+			ambient 0 1 0 1
+			diffuse 0 0 0 1
+		}
+
+	}
+
+}
+
+material red
+{
+	receive_shadows off
+	
+	technique
+	{
+		pass
+		{
+			ambient 1 0 0 1
+			diffuse 0 0 0 1
+		}
+	}
+}
+
+material yellow
+{
+	receive_shadows off
+	
+	technique
+	{
+		pass
+		{
+			ambient 1 1 0 1
+			diffuse 0 0 0 1
+		}
+	}
+}
+
+material white
+{
+	receive_shadows off
+	
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+		}
+	}
+}

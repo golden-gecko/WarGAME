@@ -1,0 +1,16 @@
+
+material tree5
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture tree5.png
+			}
+		}
+	}
+}
