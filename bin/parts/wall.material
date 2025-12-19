@@ -1,0 +1,18 @@
+
+material wall
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5
+
+			texture_unit
+			{
+				texture wall.bmp
+			}
+		}
+	}
+}

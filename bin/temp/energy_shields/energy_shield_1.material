@@ -1,0 +1,27 @@
+
+material energy_shield
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			depth_write off
+			fog_override true
+			polygon_mode wireframe
+			scene_blend alpha_blend
+		}
+
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			depth_write off
+			fog_override true
+			scene_blend alpha_blend
+		}
+	}
+}

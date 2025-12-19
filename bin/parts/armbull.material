@@ -1,0 +1,36 @@
+
+material armbull0
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+
+			texture_unit
+			{
+				texture armbull.bmp
+			}
+		}
+
+	}
+
+}
+
+material armbull1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+		}
+
+	}
+
+}

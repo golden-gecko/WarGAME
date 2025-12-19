@@ -1,0 +1,16 @@
+
+material missile
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 1 1 0 1
+			diffuse 1 1 0 1
+		}
+
+	}
+
+}

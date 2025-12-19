@@ -1,0 +1,31 @@
+
+material teleporter_gate0
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+
+			texture_unit
+			{
+				texture teleporter_gate.bmp
+			}
+		}
+	}
+}
+
+material teleporter_gate1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+		}
+	}
+}

@@ -1,0 +1,34 @@
+
+fire
+{
+	material			fire
+	particle_width		5
+	particle_height		5
+	cull_each			true
+	quota				50
+	sorted				true
+
+	emitter Point
+	{
+		angle				90
+		emission_rate		5
+		time_to_live		5
+		direction			0 1 0
+		velocity_min		1
+		velocity_max		2
+		colour_range_start	0.75 0.4 0 1
+		colour_range_end	0.75 0.6 0 1
+	}
+
+	affector Scaler
+	{
+		rate	2.5
+	}
+
+	affector ColourFader
+	{
+		red		-0.25
+		green	-0.25
+		blue	-0.25
+	}
+}

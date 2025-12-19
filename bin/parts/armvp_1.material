@@ -1,0 +1,53 @@
+
+material armvp0
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture .\armvp.bmp
+			}
+		}
+
+	}
+
+}
+
+material armvp1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.388235 0.388235 0.262745 1
+		}
+
+	}
+
+}
+
+material armvp2
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.498039 0.027451 0 1
+		}
+
+	}
+
+}

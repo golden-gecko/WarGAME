@@ -1,0 +1,21 @@
+
+material light_cone
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			fog_override true
+			scene_blend alpha_blend
+			depth_write off
+			lighting off
+
+			texture_unit
+			{
+				texture light_cone.png
+			}
+		}
+	}
+}

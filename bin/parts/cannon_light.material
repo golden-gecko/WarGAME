@@ -1,0 +1,32 @@
+
+material cannon_light0
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5
+
+			texture_unit
+			{
+				texture cannon_light.bmp
+			}
+		}
+	}
+}
+
+material cannon_light1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5
+			diffuse 0 0 0 1
+		}
+	}
+}

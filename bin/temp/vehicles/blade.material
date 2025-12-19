@@ -1,0 +1,18 @@
+
+material blade
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+
+			texture_unit
+			{
+				texture blade.bmp
+			}
+		}
+	}
+}

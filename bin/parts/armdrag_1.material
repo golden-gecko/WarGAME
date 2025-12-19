@@ -1,0 +1,21 @@
+
+material armdrag
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.8 0.8 0.8 1
+
+			texture_unit
+			{
+				texture armdrag.bmp
+			}
+		}
+
+	}
+
+}
