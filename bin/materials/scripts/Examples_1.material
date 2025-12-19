@@ -1,0 +1,157 @@
+material Debug
+{
+	technique
+	{
+		pass
+		{
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                colour_op_ex source1 src_manual src_current 1 0 0
+                alpha_op_ex source1 src_manual src_current 0.2
+            }
+		}
+	}
+}
+
+material Examples/GrassFloor
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture grass_1024.jpg
+			}
+		}
+
+		pass
+		{
+            scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture grid.png
+                filtering anisotropic
+                scale 0.01 0.01
+                scroll 0.5 0.5
+			}
+		}
+	}
+}
+
+material Terrain
+{
+    technique
+    {
+        pass
+        {
+            ambient vertexcolour
+        }
+    }
+}
+
+material Water
+{
+    technique
+    {
+        pass
+        {
+            ambient vertexcolour
+            cull_hardware none
+            cull_software none
+            lighting off
+            scene_blend alpha_blend
+        }
+    }
+}
+
+material Structure
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture BrickSmallBrown0176_2_S.jpg
+			}
+		}
+	}
+}
+
+material Industrial
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 0.5 0.0
+		}
+	}
+}
+
+material Residential
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0 0.8 0.0
+		}
+	}
+}
+
+material Road
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1
+		}
+	}
+}
+
+material RoadX
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Roads0086_33_S.jpg
+			}
+		}
+	}
+}
+
+material RoadZ
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Roads0086_33_S.jpg
+                rotate 90
+			}
+		}
+	}
+}
+
+material Car
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.0 0.0
+		}
+	}
+}
