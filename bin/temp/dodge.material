@@ -1,0 +1,19 @@
+
+material dodge
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture dodge.tga
+				colour_op modulate
+			}
+		}
+
+	}
+
+}

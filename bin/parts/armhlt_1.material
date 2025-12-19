@@ -1,0 +1,68 @@
+
+material armhlt0
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+
+			texture_unit
+			{
+				texture armhlt.bmp
+			}
+		}
+
+	}
+
+}
+
+material armhlt1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0 0 0 1
+		}
+
+	}
+
+}
+
+material armhlt2
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.1 0.1 0.1 1
+		}
+
+	}
+
+}
+
+material armhlt3
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.75 0.1 0 1
+		}
+
+	}
+
+}

@@ -1,0 +1,7 @@
+<WarGAME>
+	<sound>
+		<name>LargeGun.wav</name>
+		<looping>0</looping>
+		<maxNumInstances>8</maxNumInstances>
+	</sound>
+</WarGAME>

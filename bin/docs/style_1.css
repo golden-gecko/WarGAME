@@ -1,0 +1,35 @@
+
+a 
+{
+	color: #FFFFAA;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color: #FFFFAA;
+	text-decoration: none;
+}
+
+body 
+{
+	background-color: #000000;
+	color: #FFFFAA;
+	font-family: Verdana;
+	margin-bottom: 0;
+	margin-left: 10;
+	margin-right: 10;
+	margin-top: 0;
+}
+
+hr
+{
+	color: #FFFFAA;
+	background-color: #FFFF88;
+	height: 1;
+}
+
+li
+{
+	margin-left: 16;
+}

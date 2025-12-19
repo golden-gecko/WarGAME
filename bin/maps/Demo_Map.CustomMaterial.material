@@ -1,0 +1,28 @@
+
+material Demo.Map.Custom.Material
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Demo_Map_texture.jpg
+			}
+		}
+		pass
+		{
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture Demo_Map_detail.png
+				scale 0.05 0.05
+			}
+		}
+		pass
+		{
+			scene_blend alpha_blend
+		}
+	}
+}

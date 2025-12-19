@@ -1,0 +1,37 @@
+
+material cordrag0
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+
+			texture_unit
+			{
+				texture cordrag.bmp
+				colour_op modulate
+			}
+		}
+
+	}
+
+}
+
+material cordrag1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.67 0.67 0.67 1
+		}
+
+	}
+
+}

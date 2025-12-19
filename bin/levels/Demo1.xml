@@ -1,0 +1,45 @@
+<WarGAME>
+
+	<map>
+		<fileName>Demo_Map.cfg</fileName>
+	</map>
+
+	<sky>
+		<materialName>Sky/EarlyMorning</materialName>
+		<distance>4000.0</distance>
+	</sky>
+
+
+	<descriptor>
+		<name>armfav_weapon</name>
+		<type>MT_BODY></type>
+		<meshName>armfav_weapon.mesh</meshName>
+		<maxHitPoints>100.0</maxHitPoints>
+		<castShadows>1</castShadows>
+	</descriptor>
+
+	<object>
+		<positionX>5.0</positionX>
+		<positionZ>15.0</positionZ>
+		<dimensionY>1.0</dimensionY>
+		<moduleName>armfav_weapon</moduleName>
+	</object>
+
+
+	<descriptor>
+		<name>armbull_body</name>
+		<type>MT_BODY></type>
+		<meshName>armbull_body.mesh</meshName>
+		<maxHitPoints>100.0</maxHitPoints>
+		<castShadows>1</castShadows>
+	</descriptor>
+
+	<object>
+		<positionX>5.0</positionX>
+		<positionZ>5.0</positionZ>
+		<dimensionY>1.5</dimensionY>
+		<moduleName>armbull_body</moduleName>
+	</object>
+
+
+</WarGAME>

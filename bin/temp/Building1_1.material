@@ -1,0 +1,180 @@
+
+material default#1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.298039 0.298039 0.298039 1
+			diffuse 0.4 0.4 0.4 1
+			specular 1 1 1 1 75.52
+		}
+
+	}
+
+}
+
+material ss2roof
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.682353 0.670588 0.619608 1
+			diffuse 0.682353 0.670588 0.619608 1
+			specular 1 1 1 1 -2.56
+
+			texture_unit
+			{
+				texture_alias 0
+				texture SS2ROOF.TGA
+			}
+		}
+
+	}
+
+}
+
+material ss1sides
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.498039 0.498039 0.498039 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 1 1 1 1 7.68
+
+			texture_unit
+			{
+				texture_alias 0
+				texture SKYSCRP1.TGA
+			}
+		}
+
+	}
+
+}
+
+material ss2conc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.682353 0.670588 0.619608 1
+			diffuse 0.682353 0.670588 0.619608 1
+			specular 1 1 1 1 -2.56
+
+			texture_unit
+			{
+				texture_alias 0
+				texture SS2CONC.TGA
+			}
+		}
+
+	}
+
+}
+
+material ss2glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.4 0.4 0.4 1
+			diffuse 0.4 0.4 0.4 1
+			specular 1 1 1 1 81.92
+
+			texture_unit
+			{
+				texture_alias 0
+				texture SS2GLASS.TGA
+			}
+		}
+
+	}
+
+}
+
+material ss3silver
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.368627 0.368627 0.368627 1
+			diffuse 0.682353 0.682353 0.682353 1
+			specular 1 1 1 1 76.8
+		}
+
+	}
+
+}
+
+material ss3glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.027451 0.0431373 0.160784 1
+			diffuse 0.105882 0.129412 0.168627 1
+			specular 0.807843 0.831373 0.854902 1 81.92
+		}
+
+	}
+
+}
+
+material ss3roof
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.172549 0.172549 0.172549 1
+			diffuse 0.223529 0.223529 0.223529 1
+			specular 0.584314 0.584314 0.584314 1 -2.56
+		}
+
+	}
+
+}
+
+material ssb
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.498039 0.498039 0.498039 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0.898039 0.898039 0.898039 1 7.68
+
+			texture_unit
+			{
+				texture_alias 0
+				texture SSB.TGA
+			}
+		}
+
+	}
+
+}
+
+material ssbroof
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0980392 0.0980392 0.0980392 1
+			diffuse 0.254902 0.254902 0.305882 1
+			specular 0.898039 0.898039 0.898039 1 28.16
+		}
+
+	}
+
+}

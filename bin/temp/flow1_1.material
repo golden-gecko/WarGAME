@@ -1,0 +1,21 @@
+
+material flow1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture flow1.tga
+			}
+		}
+
+	}
+
+}

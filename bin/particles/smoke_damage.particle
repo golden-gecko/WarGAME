@@ -1,0 +1,33 @@
+
+smoke_damage
+{
+	material			smoke
+	particle_width		3
+	particle_height		3
+	cull_each			true
+	quota				50
+	common_direction	1 0 0
+	sorted				true
+
+	emitter Point
+	{
+		angle			45
+		emission_rate	3
+		time_to_live	4
+		direction		0 1 0
+		velocity_min	1
+		velocity_max	3
+		colour			0 0 0 0.75
+	}
+
+	affector Scaler
+	{
+		rate	3
+	}
+
+	affector ColourFader
+	{
+		alpha	-0.25
+	}
+
+}

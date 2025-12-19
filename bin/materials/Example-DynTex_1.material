@@ -1,0 +1,23 @@
+
+material Examples/DynaTest
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Demo_Map_mini.jpg
+			}
+		}
+		pass
+		{
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture MiniMapTexture 2d
+			}
+		}
+	}
+}
