@@ -1,0 +1,124 @@
+material a_da0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_handl003.tga
+			}
+		}
+	}
+}
+material a_da10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_da11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}

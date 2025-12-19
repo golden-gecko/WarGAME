@@ -1,0 +1,17 @@
+material box_selection
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 0 0.2
+			diffuse 1 1 0 0.2
+			
+			depth_write off
+			scene_blend alpha_blend
+			
+			cull_hardware none
+			cull_software none
+		}
+	}
+}

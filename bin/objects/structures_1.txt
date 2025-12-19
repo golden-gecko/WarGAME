@@ -1,0 +1,54 @@
+[Vehicle Plant]
+Type=Factory
+Description=Produce.s Vehicles
+Cost.Energy=1000
+Cost.Metal=620
+MaxHealth=2580
+MaxSlope=10
+SightDistance=210
+Storage.Energy=100
+Storage.Metal=100
+Mesh=armvp.mesh
+Scale=0.03
+Use.Energy=20
+Use.Metal=5
+
+[Metal Extractor]
+Type=Mine
+Description=Extracts Metal
+Cost.Energy=521
+Cost.Metal=50
+MaxHealth=170
+MaxSlope=10
+EnergyUse.=3
+SightDistance=210
+Mesh=armmex.mesh
+Scale=0.03
+Use.Energy=4
+Produce.Metal=2
+
+[Solar Collector]
+Type=Mine
+Description=Produces Energy
+Cost.Energy=760
+Cost.Metal=145
+MaxHealth=326
+MaxSlope=10
+SightDistance=210
+Mesh=armsolar.mesh
+Scale=0.03
+Produce.Energy=20
+
+[L.L.T.]
+Type=Turret
+Description=Attacks enemy units
+Cost.Energy=300
+Cost.Metal=50
+MaxHealth=150
+MaxSlope=10
+SightDistance=400
+Weapon.Damage=15
+Weapon.Radius=5
+Weapon.Range=300
+Mesh=armllt.mesh
+Scale=0.03

@@ -1,0 +1,140 @@
+material c_yMale020
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_hand.tga
+			}
+		}
+	}
+}
+material c_yMale021
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_fore.tga
+			}
+		}
+	}
+}
+material c_yMale022
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_bice.tga
+			}
+		}
+	}
+}
+material c_yMale023
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_neck.tga
+			}
+		}
+	}
+}
+material c_yMale024
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_shin.tga
+			}
+		}
+	}
+}
+material c_yMale025
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_head.tga
+			}
+		}
+	}
+}
+material c_yMale026
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_leg.tga
+			}
+		}
+	}
+}
+material c_yMale027
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_pel.tga
+			}
+		}
+	}
+}
+material c_yMale028
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_chest.tga
+			}
+		}
+	}
+}
+material c_yMale029
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Male02_feet.tga
+			}
+		}
+	}
+}

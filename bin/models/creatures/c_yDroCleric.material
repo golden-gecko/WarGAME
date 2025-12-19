@@ -1,0 +1,168 @@
+material c_yDroCleric0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_pel.tga
+			}
+		}
+	}
+}
+material c_yDroCleric1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_shin.tga
+			}
+		}
+	}
+}
+material c_yDroCleric2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_head.tga
+			}
+		}
+	}
+}
+material c_yDroCleric3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_feet.tga
+			}
+		}
+	}
+}
+material c_yDroCleric4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_belt.tga
+			}
+		}
+	}
+}
+material c_yDroCleric5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_sho.tga
+			}
+		}
+	}
+}
+material c_yDroCleric6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_chest.tga
+			}
+		}
+	}
+}
+material c_yDroCleric7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_neck.tga
+			}
+		}
+	}
+}
+material c_yDroCleric8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_leg.tga
+			}
+		}
+	}
+}
+material c_yDroCleric9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_hands.tga
+			}
+		}
+	}
+}
+material c_yDroCleric10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_fore.tga
+			}
+		}
+	}
+}
+material c_yDroCleric11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroCle_bice.tga
+			}
+		}
+	}
+}

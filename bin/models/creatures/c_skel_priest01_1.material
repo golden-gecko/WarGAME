@@ -1,0 +1,84 @@
+material c_skel_priest010
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_p01_hand.tga
+			}
+		}
+	}
+}
+material c_skel_priest011
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_p01_torso.tga
+			}
+		}
+	}
+}
+material c_skel_priest012
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_p01_thigh.tga
+			}
+		}
+	}
+}
+material c_skel_priest013
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_p01_head.tga
+			}
+		}
+	}
+}
+material c_skel_priest014
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_p01_pelvi.tga
+			}
+		}
+	}
+}
+material c_skel_priest015
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_p01_foot.tga
+			}
+		}
+	}
+}

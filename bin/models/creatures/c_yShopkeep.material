@@ -1,0 +1,154 @@
+material c_yShopkeep0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_belt.tga
+			}
+		}
+	}
+}
+material c_yShopkeep1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_shin.tga
+			}
+		}
+	}
+}
+material c_yShopkeep2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_hands.tga
+			}
+		}
+	}
+}
+material c_yShopkeep3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_chest.tga
+			}
+		}
+	}
+}
+material c_yShopkeep4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_pel.tga
+			}
+		}
+	}
+}
+material c_yShopkeep5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_head.tga
+			}
+		}
+	}
+}
+material c_yShopkeep6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_bice.tga
+			}
+		}
+	}
+}
+material c_yShopkeep7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_neck.tga
+			}
+		}
+	}
+}
+material c_yShopkeep8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_leg.tga
+			}
+		}
+	}
+}
+material c_yShopkeep9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_feet.tga
+			}
+		}
+	}
+}
+material c_yShopkeep10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Shopk_fore.tga
+			}
+		}
+	}
+}

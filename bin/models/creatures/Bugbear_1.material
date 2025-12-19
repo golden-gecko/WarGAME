@@ -1,0 +1,14 @@
+material Bugbear0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_bugbeara.tga
+			}
+		}
+	}
+}

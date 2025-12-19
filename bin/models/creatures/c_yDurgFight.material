@@ -1,0 +1,154 @@
+material c_yDurgFight0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_neck.tga
+			}
+		}
+	}
+}
+material c_yDurgFight1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_shin.tga
+			}
+		}
+	}
+}
+material c_yDurgFight2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_bice.tga
+			}
+		}
+	}
+}
+material c_yDurgFight3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_sho.tga
+			}
+		}
+	}
+}
+material c_yDurgFight4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_head.tga
+			}
+		}
+	}
+}
+material c_yDurgFight5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_feet.tga
+			}
+		}
+	}
+}
+material c_yDurgFight6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_fore.tga
+			}
+		}
+	}
+}
+material c_yDurgFight7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_pelvis.tga
+			}
+		}
+	}
+}
+material c_yDurgFight8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_leg.tga
+			}
+		}
+	}
+}
+material c_yDurgFight9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_hands.tga
+			}
+		}
+	}
+}
+material c_yDurgFight10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DurFi_chest.tga
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+material c_goblinB0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_gobheadb.tga
+			}
+		}
+	}
+}
+material c_goblinB1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_goblinb.tga
+			}
+		}
+	}
+}

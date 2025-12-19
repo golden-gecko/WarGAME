@@ -1,0 +1,124 @@
+material a_halforc0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_shol004.tga
+			}
+		}
+	}
+}
+material a_halforc9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_halforc11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}

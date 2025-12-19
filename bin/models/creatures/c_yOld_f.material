@@ -1,0 +1,140 @@
+material c_yOld_f0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_head.tga
+			}
+		}
+	}
+}
+material c_yOld_f1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_pel.tga
+			}
+		}
+	}
+}
+material c_yOld_f2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_fore.tga
+			}
+		}
+	}
+}
+material c_yOld_f3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_leg.tga
+			}
+		}
+	}
+}
+material c_yOld_f4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_chest.tga
+			}
+		}
+	}
+}
+material c_yOld_f5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_bice.tga
+			}
+		}
+	}
+}
+material c_yOld_f6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_feet.tga
+			}
+		}
+	}
+}
+material c_yOld_f7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_neck.tga
+			}
+		}
+	}
+}
+material c_yOld_f8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_hands.tga
+			}
+		}
+	}
+}
+material c_yOld_f9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture oldf_shin.tga
+			}
+		}
+	}
+}

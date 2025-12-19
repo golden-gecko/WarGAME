@@ -1,0 +1,17 @@
+material shrub4
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture shrub4.tga
+				tex_address_mode clamp
+			}
+		}
+	}
+}

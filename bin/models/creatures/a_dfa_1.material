@@ -1,0 +1,120 @@
+material a_dfa0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dfa11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}

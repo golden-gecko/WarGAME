@@ -1,0 +1,168 @@
+material c_yCult0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_feet.tga
+			}
+		}
+	}
+}
+material c_yCult1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_chest.tga
+			}
+		}
+	}
+}
+material c_yCult2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_belt.tga
+			}
+		}
+	}
+}
+material c_yCult3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_pel.tga
+			}
+		}
+	}
+}
+material c_yCult4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_leg.tga
+			}
+		}
+	}
+}
+material c_yCult5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_neck.tga
+			}
+		}
+	}
+}
+material c_yCult6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_hands.tga
+			}
+		}
+	}
+}
+material c_yCult7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_fore.tga
+			}
+		}
+	}
+}
+material c_yCult8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_head.tga
+			}
+		}
+	}
+}
+material c_yCult9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_sho.tga
+			}
+		}
+	}
+}
+material c_yCult10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_shin.tga
+			}
+		}
+	}
+}
+material c_yCult11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture cult_bice.tga
+			}
+		}
+	}
+}

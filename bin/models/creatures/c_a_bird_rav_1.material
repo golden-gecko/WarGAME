@@ -1,0 +1,10 @@
+material c_a_bird_rav0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}

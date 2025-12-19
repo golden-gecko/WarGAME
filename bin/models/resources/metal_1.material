@@ -1,0 +1,13 @@
+material metal
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture goblinmetal2.jpg
+			}
+		}
+	}
+}

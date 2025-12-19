@@ -1,0 +1,28 @@
+material c_gobwiza0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_goblina.tga
+			}
+		}
+	}
+}
+material c_gobwiza1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_gobheada.tga
+			}
+		}
+	}
+}

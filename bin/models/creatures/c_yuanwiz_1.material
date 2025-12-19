@@ -1,0 +1,140 @@
+material c_yuanwiz0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_fore.tga
+			}
+		}
+	}
+}
+material c_yuanwiz1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_leg.tga
+			}
+		}
+	}
+}
+material c_yuanwiz2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_feet.tga
+			}
+		}
+	}
+}
+material c_yuanwiz3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_chest.tga
+			}
+		}
+	}
+}
+material c_yuanwiz4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_bice.tga
+			}
+		}
+	}
+}
+material c_yuanwiz5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_shin.tga
+			}
+		}
+	}
+}
+material c_yuanwiz6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_belt.tga
+			}
+		}
+	}
+}
+material c_yuanwiz7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_sho.tga
+			}
+		}
+	}
+}
+material c_yuanwiz8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_head.tga
+			}
+		}
+	}
+}
+material c_yuanwiz9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_wiz_pel.tga
+			}
+		}
+	}
+}

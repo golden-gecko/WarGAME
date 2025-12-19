@@ -1,0 +1,140 @@
+material c_ySick0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_fore.tga
+			}
+		}
+	}
+}
+material c_ySick1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_bice.tga
+			}
+		}
+	}
+}
+material c_ySick2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_feet.tga
+			}
+		}
+	}
+}
+material c_ySick3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_neck.tga
+			}
+		}
+	}
+}
+material c_ySick4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_pel.tga
+			}
+		}
+	}
+}
+material c_ySick5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_chest.tga
+			}
+		}
+	}
+}
+material c_ySick6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_shin.tga
+			}
+		}
+	}
+}
+material c_ySick7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_leg.tga
+			}
+		}
+	}
+}
+material c_ySick8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_head.tga
+			}
+		}
+	}
+}
+material c_ySick9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Sick_hands.tga
+			}
+		}
+	}
+}

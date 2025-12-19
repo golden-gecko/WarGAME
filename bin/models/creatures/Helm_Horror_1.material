@@ -1,0 +1,38 @@
+material Helm_Horror0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture W_metal_tex.tga
+			}
+		}
+	}
+}
+material Helm_Horror1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material Helm_Horror2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_helmhorr.tga
+			}
+		}
+	}
+}

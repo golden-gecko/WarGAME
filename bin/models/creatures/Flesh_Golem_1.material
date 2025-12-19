@@ -1,0 +1,14 @@
+material Flesh_Golem0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_golflesh.tga
+			}
+		}
+	}
+}

@@ -1,0 +1,140 @@
+material c_yFem010
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_head.tga
+			}
+		}
+	}
+}
+material c_yFem011
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_leg.tga
+			}
+		}
+	}
+}
+material c_yFem012
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_feet.tga
+			}
+		}
+	}
+}
+material c_yFem013
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_hands.tga
+			}
+		}
+	}
+}
+material c_yFem014
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_shin.tga
+			}
+		}
+	}
+}
+material c_yFem015
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_fore.tga
+			}
+		}
+	}
+}
+material c_yFem016
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_bice.tga
+			}
+		}
+	}
+}
+material c_yFem017
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_pel.tga
+			}
+		}
+	}
+}
+material c_yFem018
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_chest.tga
+			}
+		}
+	}
+}
+material c_yFem019
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Fem01_neck.tga
+			}
+		}
+	}
+}

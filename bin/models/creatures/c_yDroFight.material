@@ -1,0 +1,168 @@
+material c_yDroFight0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_head.tga
+			}
+		}
+	}
+}
+material c_yDroFight1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_sho.tga
+			}
+		}
+	}
+}
+material c_yDroFight2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_hands.tga
+			}
+		}
+	}
+}
+material c_yDroFight3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_bice.tga
+			}
+		}
+	}
+}
+material c_yDroFight4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_fore.tga
+			}
+		}
+	}
+}
+material c_yDroFight5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_neck.tga
+			}
+		}
+	}
+}
+material c_yDroFight6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_feet.tga
+			}
+		}
+	}
+}
+material c_yDroFight7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_pel.tga
+			}
+		}
+	}
+}
+material c_yDroFight8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_chest.tga
+			}
+		}
+	}
+}
+material c_yDroFight9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_belt.tga
+			}
+		}
+	}
+}
+material c_yDroFight10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_leg.tga
+			}
+		}
+	}
+}
+material c_yDroFight11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture DroFi_shin.tga
+			}
+		}
+	}
+}

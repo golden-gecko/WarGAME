@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/StaticImage" Name="Minimap" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.75,0},{0.22,0},{0.99,0}}" />
+        </Window>
+        <Window Type="TaharezLook/TabControl" Name="Panel" >
+            <Property Name="Text" Value="Panel" />
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="TabHeight" Value="{0,25}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0.225,0},{0.75,0},{0.99,0},{0.99,0}}" />
+            <Window Type="DefaultWindow" Name="Panel/Info" >
+                <Property Name="Text" Value="Info" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="TaharezLook/StaticText" Name="Panel/Info/Text" >
+                    <Property Name="Alpha" Value="0.75" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{1,-5},{1,-5}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Panel/Orders" >
+                <Property Name="Text" Value="Orders" />
+				<Property Name="Visible" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Attack" >
+                    <Property Name="Text" Value="Attack" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,95},{0,35}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Follow" >
+                    <Property Name="Text" Value="Follow" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,100},{0,40},{0,190},{0,70}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Capture" >
+                    <Property Name="Text" Value="Capture" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,40},{0,95},{0,70}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Patrol" >
+                    <Property Name="Text" Value="Patrol" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,100},{0,75},{0,190},{0,105}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Move" >
+                    <Property Name="Text" Value="Move" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,100},{0,5},{0,190},{0,35}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Guard" >
+                    <Property Name="Text" Value="Guard" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,75},{0,95},{0,105}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Destroy" >
+                    <Property Name="Text" Value="Destroy" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,290},{0,5},{0,380},{0,35}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Stop" >
+                    <Property Name="Text" Value="Stop" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,195},{0,75},{0,285},{0,105}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Look" >
+                    <Property Name="Text" Value="Look At" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,100},{0,110},{0,190},{0,140}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Enable" >
+                    <Property Name="Text" Value="Enable" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,195},{0,5},{0,285},{0,35}}" />
+                </Window>
+                <Window Type="TaharezLook/Button" Name="Panel/Orders/Disable" >
+                    <Property Name="Text" Value="Disable" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,195},{0,40},{0,285},{0,70}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="Panel/Orders/Abilities/1" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,5},{0.7,-5},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="Panel/Orders/Abilities/2" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0,5},{0.8,-5},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="Panel/Orders/Abilities/3" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0,5},{0.9,-5},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="Panel/Orders/Abilities/4" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.9,0},{0,5},{1,-5},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="Panel/Orders/Abilities/5" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.5,5},{0.7,-5},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="Panel/Orders/Abilities/6" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.5,5},{0.8,-5},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="Panel/Orders/Abilities/7" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.5,5},{0.9,-5},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticImage" Name="Panel/Orders/Abilities/8" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.9,0},{0.5,5},{1,-5},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/Checkbox" Name="Panel/Orders/Safe" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,385},{0,5},{0,410},{0,35}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Panel/Behaviour" >
+                <Property Name="Text" Value="Behaviour" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="TaharezLook/StaticText" Name="Panel/Behaviour/Attack" >
+                    <Property Name="Text" Value="Attack" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0.2,0},{1,-5}}" />
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Attack/Fire" >
+                        <Property Name="Text" Value="Fire at will" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,25},{0,150},{0,45}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Attack/Return" >
+                        <Property Name="Text" Value="Return fire" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,45},{0,150},{0,65}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Attack/Hold" >
+                        <Property Name="Text" Value="Hold fire" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,65},{0,150},{0,85}}" />
+                    </Window>
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Behaviour/Target" >
+                    <Property Name="Text" Value="Target" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,5},{0,5},{0.4,0},{1,-5}}" />
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Target/Closest" >
+                        <Property Name="Text" Value="Closest" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,25},{0,150},{0,45}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Target/Weakest" >
+                        <Property Name="Text" Value="Weakest" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,45},{0,150},{0,65}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Target/Strongest" >
+                        <Property Name="Text" Value="Strongest" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,65},{0,150},{0,85}}" />
+                    </Window>
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Behaviour/Move" >
+                    <Property Name="Text" Value="Move" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,5},{0,5},{0.6,0},{1,-5}}" />
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Move/Chase" >
+                        <Property Name="Text" Value="Chase" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,25},{0,150},{0,45}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Move/Hold" >
+                        <Property Name="Text" Value="Hold position" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,45},{0,150},{0,65}}" />
+                    </Window>
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Behaviour/Range" >
+                    <Property Name="Text" Value="Range" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,5},{0,5},{0.8,0},{1,-5}}" />
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Range/Maximal" >
+                        <Property Name="Text" Value="Maximal" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,25},{0,150},{0,45}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Range/Medium" >
+                        <Property Name="Text" Value="Medium" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,45},{0,150},{0,65}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Range/Close" >
+                        <Property Name="Text" Value="Close" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,65},{0,150},{0,85}}" />
+                    </Window>
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Behaviour/Retreat" >
+                    <Property Name="Text" Value="Retreat" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,5},{0,5},{1,-5},{1,-5}}" />
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Retreat/Never" >
+                        <Property Name="Text" Value="Never" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,25},{0,150},{0,45}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Retreat/50" >
+                        <Property Name="Text" Value="50% HP" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,45},{0,150},{0,65}}" />
+                    </Window>
+                    <Window Type="TaharezLook/RadioButton" Name="Panel/Behaviour/Retreat/25" >
+                        <Property Name="Text" Value="25% HP" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,10},{0,65},{0,150},{0,85}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Panel/Structures" >
+                <Property Name="Text" Value="Structures" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="TaharezLook/StaticText" Name="Panel/Structures/1" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0.1,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Structures/2" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,5},{0,5},{0.2,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Structures/3" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,5},{0,5},{0.3,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Structures/4" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0,5},{0.4,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Structures/5" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0.5,5},{0.1,0},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Structures/6" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,5},{0.5,5},{0.2,0},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Structures/7" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,5},{0.5,5},{0.3,0},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Structures/8" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0.5,5},{0.4,0},{1,-5}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Panel/Units" >
+                <Property Name="Text" Value="Units" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="TaharezLook/StaticText" Name="Panel/Units/1" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0.1,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Units/2" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,5},{0,5},{0.2,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Units/3" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,5},{0,5},{0.3,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Units/4" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0,5},{0.4,0},{0.5,0}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Units/5" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,5},{0.5,5},{0.1,0},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Units/6" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,5},{0.5,5},{0.2,0},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Units/7" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,5},{0.5,5},{0.3,0},{1,-5}}" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="Panel/Units/8" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0.5,5},{0.4,0},{1,-5}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Resources" >
+            <Property Name="Alpha" Value="0.65" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,365},{0,5},{1,-5},{0,40}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Console" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.055,0},{0.99,0},{0.2,0}}" />
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="Editor" >
+            <Property Name="Text" Value="Editor" />
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="TitlebarFont" Value="verdana" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.521131,0},{0.0719535,0},{0.968319,0},{0.661954,0}}" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="TaharezLook/TabControl" Name="Editor/Tabs" >
+                <Property Name="Alpha" Value="0.75" />
+                <Property Name="TabHeight" Value="{0,25}" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0,5},{0,25},{1,-5},{1,-5}}" />
+                <Window Type="DefaultWindow" Name="Editor/Players" >
+                    <Property Name="Text" Value="Players" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Listbox" Name="Editor/Players/List" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0.3,0},{1,-5}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Listbox" Name="Editor/Players/Resources" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0,5},{1,-5},{0.5,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticText" Name="Editor/Players/Details" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0.5,5},{1,-5},{1,-5}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Editor/Objects" >
+                    <Property Name="Text" Value="Objects" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Listbox" Name="Editor/Objects/List" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0.3,0},{1,-5}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticText" Name="Editor/Objects/Details" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0,5},{1,-5},{1,-5}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Editor/Templates" >
+                    <Property Name="Text" Value="Templates" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Listbox" Name="Editor/Templates/List" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0.3,0},{1,-5}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticText" Name="Editor/Templates/Details" >
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0,5},{1,-5},{0.5,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/StaticImage" Name="Editor/Templates/Picture" >
+                        <Property Name="HorzFormatting" Value="CentreAligned" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="CentreAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,5},{0.5,5},{1,-5},{1,-5}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="Groups" >
+            <Property Name="Alpha" Value="0.1" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,360},{0,40}}" />
+            <Window Type="TaharezLook/Button" Name="Group/1" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="1" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,35},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/2" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="2" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,40},{0,5},{0,70},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/3" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="3" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,75},{0,5},{0,105},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/4" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="4" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,110},{0,5},{0,140},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/5" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="5" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,145},{0,5},{0,175},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/6" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="6" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,180},{0,5},{0,210},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/7" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="7" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,215},{0,5},{0,245},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/8" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="8" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,250},{0,5},{0,280},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/9" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="9" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,285},{0,5},{0,315},{1,-5}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Group/0" >
+                <Property Name="Font" Value="verdana" />
+                <Property Name="Text" Value="0" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,320},{0,5},{0,350},{1,-5}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Help" >
+            <Property Name="Alpha" Value="0.5" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,100},{0,100},{0,300},{0,200}}" />
+        </Window>
+    </Window>
+</GUILayout>

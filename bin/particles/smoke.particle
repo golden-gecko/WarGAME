@@ -1,0 +1,42 @@
+particle_system smoke
+{
+	material				smoke
+	particle_width			2.0
+	particle_height			2.0
+	quota					700
+	billboard_type			point
+	sorted					true
+
+	emitter Box
+	{
+		width				2
+		height				2
+		depth				2
+		angle				180
+		emission_rate		800
+		time_to_live		3
+		direction			0 1 0
+		duration			0.01
+		velocity_min		3
+		velocity_max		5
+        colour_range_start  0.7 0.7 0.7 0.5
+        colour_range_end    0.8 0.8 0.8 0.6
+	}
+
+	affector ColourFader
+	{
+        alpha				-0.9
+	}
+
+	affector LinearForce
+	{
+		force_vector		0 2 0
+		force_application	add
+	}
+	
+	affector DirectionRandomiser
+	{
+		randomness			3
+		scope				0.5
+	}
+}

@@ -1,0 +1,162 @@
+material a_dwarf0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_forel021.tga
+			}
+		}
+	}
+}
+material a_dwarf1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_belt004.tga
+			}
+		}
+	}
+}
+material a_dwarf2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dwarf3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_chest023.tga
+			}
+		}
+	}
+}
+material a_dwarf4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmd0_head001.tga
+			}
+		}
+	}
+}
+material a_dwarf5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_shol004.tga
+			}
+		}
+	}
+}
+material a_dwarf6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_bicepl007.tga
+			}
+		}
+	}
+}
+material a_dwarf7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_neck006.tga
+			}
+		}
+	}
+}
+material a_dwarf8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dwarf9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dwarf10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture pmh0_pelvis009.tga
+			}
+		}
+	}
+}
+material a_dwarf11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}
+material a_dwarf12
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}

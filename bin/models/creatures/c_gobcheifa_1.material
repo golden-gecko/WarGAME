@@ -1,0 +1,28 @@
+material c_gobcheifa0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_goblinA.tga
+			}
+		}
+	}
+}
+material c_gobcheifa1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture C_gobheada.tga
+			}
+		}
+	}
+}

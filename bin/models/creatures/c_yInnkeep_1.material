@@ -1,0 +1,168 @@
+material c_yInnkeep0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_shin.tga
+			}
+		}
+	}
+}
+material c_yInnkeep1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_chest.tga
+			}
+		}
+	}
+}
+material c_yInnkeep2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_belt.tga
+			}
+		}
+	}
+}
+material c_yInnkeep3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_pel.tga
+			}
+		}
+	}
+}
+material c_yInnkeep4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_fore.tga
+			}
+		}
+	}
+}
+material c_yInnkeep5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_neck.tga
+			}
+		}
+	}
+}
+material c_yInnkeep6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_leg.tga
+			}
+		}
+	}
+}
+material c_yInnkeep7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_hands.tga
+			}
+		}
+	}
+}
+material c_yInnkeep8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_head.tga
+			}
+		}
+	}
+}
+material c_yInnkeep9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_sho.tga
+			}
+		}
+	}
+}
+material c_yInnkeep10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_bice.tga
+			}
+		}
+	}
+}
+material c_yInnkeep11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Innk_feet.tga
+			}
+		}
+	}
+}

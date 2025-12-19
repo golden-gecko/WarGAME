@@ -1,0 +1,28 @@
+material c_imp0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_imp.tga
+			}
+		}
+	}
+}
+material c_imp1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_impwing.tga
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+material CityBuildingsNew
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture CityBuildingsNew.tga
+			}
+		}
+	}
+}

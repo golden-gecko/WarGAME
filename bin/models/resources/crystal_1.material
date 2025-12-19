@@ -1,0 +1,13 @@
+material crystal
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Marbl21l.JPG
+			}
+		}
+	}
+}

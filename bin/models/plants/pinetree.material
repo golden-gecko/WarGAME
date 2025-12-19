@@ -1,0 +1,32 @@
+material pinetree_root
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pinetree.tga
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material pinetree_green
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture pinetree.tga
+				tex_address_mode clamp
+			}
+		}
+	}
+}

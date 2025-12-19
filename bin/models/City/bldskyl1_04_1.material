@@ -1,0 +1,41 @@
+material bldskyl1_04_0
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture SS2ROOF.TGA
+			}
+		}
+	}
+}
+
+material bldskyl1_04_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture SS2CONC.TGA
+			}
+		}
+	}
+}
+
+material bldskyl1_04_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture SS2GLASS.TGA
+			}
+		}
+	}
+}

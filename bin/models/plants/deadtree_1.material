@@ -1,0 +1,15 @@
+material deadtree
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture deadtree.tga
+			}
+		}
+	}
+}

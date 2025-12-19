@@ -1,0 +1,140 @@
+material c_yWaitress0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_pel.tga
+			}
+		}
+	}
+}
+material c_yWaitress1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_hands.tga
+			}
+		}
+	}
+}
+material c_yWaitress2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_shin.tga
+			}
+		}
+	}
+}
+material c_yWaitress3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_leg.tga
+			}
+		}
+	}
+}
+material c_yWaitress4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_chest.tga
+			}
+		}
+	}
+}
+material c_yWaitress5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_feet.tga
+			}
+		}
+	}
+}
+material c_yWaitress6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_head.tga
+			}
+		}
+	}
+}
+material c_yWaitress7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_bice.tga
+			}
+		}
+	}
+}
+material c_yWaitress8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_neck.tga
+			}
+		}
+	}
+}
+material c_yWaitress9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Wait_fore.tga
+			}
+		}
+	}
+}

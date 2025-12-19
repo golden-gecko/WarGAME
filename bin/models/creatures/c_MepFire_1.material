@@ -1,0 +1,28 @@
+material c_MepFire0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_impwing.tga
+			}
+		}
+	}
+}
+material c_MepFire1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mepfire.tga
+			}
+		}
+	}
+}

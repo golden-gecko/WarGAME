@@ -1,0 +1,140 @@
+material c_yuanchief0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_head.tga
+			}
+		}
+	}
+}
+material c_yuanchief1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_leg.tga
+			}
+		}
+	}
+}
+material c_yuanchief2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_shin.tga
+			}
+		}
+	}
+}
+material c_yuanchief3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_fore.tga
+			}
+		}
+	}
+}
+material c_yuanchief4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_belt.tga
+			}
+		}
+	}
+}
+material c_yuanchief5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_snk.tga
+			}
+		}
+	}
+}
+material c_yuanchief6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_bice.tga
+			}
+		}
+	}
+}
+material c_yuanchief7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_chest.tga
+			}
+		}
+	}
+}
+material c_yuanchief8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_pel.tga
+			}
+		}
+	}
+}
+material c_yuanchief9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_chf_feet.tga
+			}
+		}
+	}
+}

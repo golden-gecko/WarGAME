@@ -1,0 +1,27 @@
+material bldskyl1_02_0
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture ssb.tga
+			}
+		}
+	}
+}
+
+material bldskyl1_02_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0980392 0.0980392 0.0980392 1
+			diffuse 0.254902 0.254902 0.305882 1
+			specular 0.898039 0.898039 0.898039 1 28.16
+		}
+	}
+}

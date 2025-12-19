@@ -1,0 +1,20 @@
+[Energy]
+Description=Required by all structures
+Mesh=sun.mesh
+Amount=10000.0
+Restores=10000.0
+Scale=1
+
+[Metal]
+Description=Basic resource
+Mesh=metal.mesh
+Amount=100.0
+Restores=1.0
+Scale=1
+
+[Crystal]
+Description=Rare resouce required by some bigger units
+Mesh=crystal.mesh
+Amount=50.0
+Restores=0.01
+Scale=1

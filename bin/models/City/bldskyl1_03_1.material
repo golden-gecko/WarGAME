@@ -1,0 +1,38 @@
+material bldskyl1_03_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.368627 0.368627 0.368627 1
+			diffuse 0.682353 0.682353 0.682353 1
+			specular 1 1 1 1 76.8
+		}
+	}
+}
+
+material bldskyl1_03_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.027451 0.0431373 0.160784 1
+			diffuse 0.105882 0.129412 0.168627 1
+			specular 0.807843 0.831373 0.854902 1 81.92
+		}
+	}
+}
+
+material bldskyl1_03_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.172549 0.172549 0.172549 1
+			diffuse 0.223529 0.223529 0.223529 1
+			specular 0.584314 0.584314 0.584314 1 -2.56
+		}
+	}
+}

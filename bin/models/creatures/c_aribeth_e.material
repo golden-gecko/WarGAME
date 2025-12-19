@@ -1,0 +1,10 @@
+material c_aribeth_e0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+		}
+	}
+}

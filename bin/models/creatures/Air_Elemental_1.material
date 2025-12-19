@@ -1,0 +1,28 @@
+material Air_Elemental0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_air_skin.tga
+			}
+		}
+	}
+}
+material Air_Elemental1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_air.tga
+			}
+		}
+	}
+}

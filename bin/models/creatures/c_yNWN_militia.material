@@ -1,0 +1,168 @@
+material c_yNWN_militia0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_belt.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_sho.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_bice.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_head.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_pel.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_fore.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_leg.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_feet.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_chest.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_neck.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_hands.tga
+			}
+		}
+	}
+}
+material c_yNWN_militia11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture militia_shin.tga
+			}
+		}
+	}
+}

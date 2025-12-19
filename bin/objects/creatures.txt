@@ -1,0 +1,54 @@
+[Gray Wolf]
+Description=Dangerous creature. Live in packs.
+Species=Wolf
+MaxHealth=50
+Speed=1.5
+Mesh=c_Wolf.mesh
+Scale=0.02
+MaxWaterDepth=0.2
+
+[Deer]
+Description=Harmless grass-eating creature.
+Species=Deer
+MaxHealth=30
+Speed=1.5
+Mesh=Deer.mesh
+Scale=0.02
+MaxWaterDepth=0.2
+
+[Green Goblin Soldier]
+Description=Small and ugly.
+Species=Goblin
+MaxHealth=100
+Speed=1.5
+Mesh=c_goblinA.mesh
+Scale=0.02
+
+[Red Goblin Wizard]
+Description=Small and ugly. Can use some basic magic Spells.
+Species=Goblin
+MaxHealth=100
+MaxEnergy=75
+Speed=0.9
+Mesh=c_gobwizb.mesh
+Scale=0.02
+
+[Giant Spider]
+Description=Big green spider.
+Species=Spider
+MaxHealth=15
+MaxEnergy=5
+Speed=1.5
+Mesh=Giant_Spider.mesh
+Scale=0.02
+MaxWaterDepth=0.1
+
+[Ettercap]
+Description=Humanoid spider.
+Species=Spider
+MaxHealth=100
+MaxEnergy=10
+Speed=1.5
+Mesh=Ettercap.mesh
+Scale=0.02
+MaxWaterDepth=0.3

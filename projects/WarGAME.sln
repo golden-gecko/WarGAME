@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WarGAME", "WarGAME\scripts\WarGAME.vcproj", "{33D8310F-5F94-4444-9109-2724157D5793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33D8310F-5F94-4444-9109-2724157D5793}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{33D8310F-5F94-4444-9109-2724157D5793}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33D8310F-5F94-4444-9109-2724157D5793}.Debug|Win32.Build.0 = Debug|Win32
+		{33D8310F-5F94-4444-9109-2724157D5793}.Release|Any CPU.ActiveCfg = Release|Win32
+		{33D8310F-5F94-4444-9109-2724157D5793}.Release|Win32.ActiveCfg = Release|Win32
+		{33D8310F-5F94-4444-9109-2724157D5793}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

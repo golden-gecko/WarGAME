@@ -1,0 +1,69 @@
+material bldskyl1_01_0
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture TOWFRONT.TGA
+			}
+		}
+	}
+}
+
+material bldskyl1_01_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture TOWER2.TGA
+			}
+		}
+	}
+}
+
+material bldskyl1_01_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture TOWCONC.TGA
+			}
+		}
+	}
+}
+
+material bldskyl1_01_3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture TOWTWIN.TGA
+			}
+		}
+	}
+}
+
+material bldskyl1_01_4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture TOWER1.TGA
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+material c_cmbtdummy0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture PLC_CrpsBksRp.tga
+			}
+		}
+	}
+}
+material c_cmbtdummy1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture PLC_woodB256.tga
+			}
+		}
+	}
+}
+material c_cmbtdummy2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture PLC_Rck.tga
+			}
+		}
+	}
+}

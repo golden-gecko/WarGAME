@@ -1,0 +1,140 @@
+material Mummy_Priest0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_bicep.tga
+			}
+		}
+	}
+}
+material Mummy_Priest1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_farm.tga
+			}
+		}
+	}
+}
+material Mummy_Priest2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture W_metal_tex.tga
+			}
+		}
+	}
+}
+material Mummy_Priest3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_foot.tga
+			}
+		}
+	}
+}
+material Mummy_Priest4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_hand.tga
+			}
+		}
+	}
+}
+material Mummy_Priest5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_shin.tga
+			}
+		}
+	}
+}
+material Mummy_Priest6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_thigh.tga
+			}
+		}
+	}
+}
+material Mummy_Priest7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_head.tga
+			}
+		}
+	}
+}
+material Mummy_Priest8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_torso.tga
+			}
+		}
+	}
+}
+material Mummy_Priest9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_p01_pelvi.tga
+			}
+		}
+	}
+}

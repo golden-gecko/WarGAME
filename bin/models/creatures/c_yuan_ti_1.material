@@ -1,0 +1,140 @@
+material c_yuan_ti0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_belt.tga
+			}
+		}
+	}
+}
+material c_yuan_ti1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_feet.tga
+			}
+		}
+	}
+}
+material c_yuan_ti2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_fore.tga
+			}
+		}
+	}
+}
+material c_yuan_ti3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_chest.tga
+			}
+		}
+	}
+}
+material c_yuan_ti4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_hands.tga
+			}
+		}
+	}
+}
+material c_yuan_ti5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_pel.tga
+			}
+		}
+	}
+}
+material c_yuan_ti6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_shin.tga
+			}
+		}
+	}
+}
+material c_yuan_ti7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_bice.tga
+			}
+		}
+	}
+}
+material c_yuan_ti8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_leg.tga
+			}
+		}
+	}
+}
+material c_yuan_ti9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture yun_ti_head.tga
+			}
+		}
+	}
+}

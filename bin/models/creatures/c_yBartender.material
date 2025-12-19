@@ -1,0 +1,140 @@
+material c_yBartender0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_chest.tga
+			}
+		}
+	}
+}
+material c_yBartender1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_neck.tga
+			}
+		}
+	}
+}
+material c_yBartender2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_fore.tga
+			}
+		}
+	}
+}
+material c_yBartender3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_leg.tga
+			}
+		}
+	}
+}
+material c_yBartender4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_feet.tga
+			}
+		}
+	}
+}
+material c_yBartender5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_bice.tga
+			}
+		}
+	}
+}
+material c_yBartender6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_head.tga
+			}
+		}
+	}
+}
+material c_yBartender7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_hands.tga
+			}
+		}
+	}
+}
+material c_yBartender8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_shin.tga
+			}
+		}
+	}
+}
+material c_yBartender9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Bart_pel.tga
+			}
+		}
+	}
+}

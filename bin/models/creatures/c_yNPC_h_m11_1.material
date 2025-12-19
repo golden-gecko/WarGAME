@@ -1,0 +1,154 @@
+material c_yNPC_h_m110
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_pel.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m111
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_hands.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m112
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_chest.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m113
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_leg.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m114
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_bice.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m115
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_fore.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m116
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_belt.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m117
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_shin.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m118
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_head.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m119
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_neck.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_m1110
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_m11_feet.tga
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+material Doodads0
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Doodads0.jpg
+			}
+		}
+	}
+}

@@ -1,0 +1,154 @@
+material Mummy_Fighter30
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_foot.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter31
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_torso.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter32
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture W_metal_tex.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter33
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_bicep.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter34
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_shoul.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter35
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_farm.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter36
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_hand.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter37
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_head.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter38
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_pelvi.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter39
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_shin.tga
+			}
+		}
+	}
+}
+material Mummy_Fighter310
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_mum_f03_thigh.tga
+			}
+		}
+	}
+}

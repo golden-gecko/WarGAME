@@ -1,0 +1,154 @@
+material c_yBloodSail0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_hands.tga
+			}
+		}
+	}
+}
+material c_yBloodSail1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_belt.tga
+			}
+		}
+	}
+}
+material c_yBloodSail2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_feet.tga
+			}
+		}
+	}
+}
+material c_yBloodSail3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_fore.tga
+			}
+		}
+	}
+}
+material c_yBloodSail4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_bice.tga
+			}
+		}
+	}
+}
+material c_yBloodSail5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_chest.tga
+			}
+		}
+	}
+}
+material c_yBloodSail6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_head.tga
+			}
+		}
+	}
+}
+material c_yBloodSail7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_neck.tga
+			}
+		}
+	}
+}
+material c_yBloodSail8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_shin.tga
+			}
+		}
+	}
+}
+material c_yBloodSail9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_pel.tga
+			}
+		}
+	}
+}
+material c_yBloodSail10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Blood_leg.tga
+			}
+		}
+	}
+}

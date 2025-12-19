@@ -1,0 +1,168 @@
+material c_yKid_f0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_feet.tga
+			}
+		}
+	}
+}
+material c_yKid_f1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_belt.tga
+			}
+		}
+	}
+}
+material c_yKid_f2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_fore.tga
+			}
+		}
+	}
+}
+material c_yKid_f3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_leg.tga
+			}
+		}
+	}
+}
+material c_yKid_f4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_pel.tga
+			}
+		}
+	}
+}
+material c_yKid_f5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_chest.tga
+			}
+		}
+	}
+}
+material c_yKid_f6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_hands.tga
+			}
+		}
+	}
+}
+material c_yKid_f7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_shin.tga
+			}
+		}
+	}
+}
+material c_yKid_f8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_neck.tga
+			}
+		}
+	}
+}
+material c_yKid_f9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_sho.tga
+			}
+		}
+	}
+}
+material c_yKid_f10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_bice.tga
+			}
+		}
+	}
+}
+material c_yKid_f11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture girl_head.tga
+			}
+		}
+	}
+}

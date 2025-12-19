@@ -1,0 +1,140 @@
+material c_yConvict0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_head.tga
+			}
+		}
+	}
+}
+material c_yConvict1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_hands.tga
+			}
+		}
+	}
+}
+material c_yConvict2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_fore.tga
+			}
+		}
+	}
+}
+material c_yConvict3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_bice.tga
+			}
+		}
+	}
+}
+material c_yConvict4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_feet.tga
+			}
+		}
+	}
+}
+material c_yConvict5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_neck.tga
+			}
+		}
+	}
+}
+material c_yConvict6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_pel.tga
+			}
+		}
+	}
+}
+material c_yConvict7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_chest.tga
+			}
+		}
+	}
+}
+material c_yConvict8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_shin.tga
+			}
+		}
+	}
+}
+material c_yConvict9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Conv_leg.tga
+			}
+		}
+	}
+}

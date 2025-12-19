@@ -1,0 +1,168 @@
+material c_yLuskguard0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_head.tga
+			}
+		}
+	}
+}
+material c_yLuskguard1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_bice.tga
+			}
+		}
+	}
+}
+material c_yLuskguard2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_fore.tga
+			}
+		}
+	}
+}
+material c_yLuskguard3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_pel.tga
+			}
+		}
+	}
+}
+material c_yLuskguard4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_hands.tga
+			}
+		}
+	}
+}
+material c_yLuskguard5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_shin.tga
+			}
+		}
+	}
+}
+material c_yLuskguard6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_leg.tga
+			}
+		}
+	}
+}
+material c_yLuskguard7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_chest.tga
+			}
+		}
+	}
+}
+material c_yLuskguard8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_belt.tga
+			}
+		}
+	}
+}
+material c_yLuskguard9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_neck.tga
+			}
+		}
+	}
+}
+material c_yLuskguard10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_sho.tga
+			}
+		}
+	}
+}
+material c_yLuskguard11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture lusk_feet.tga
+			}
+		}
+	}
+}

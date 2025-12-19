@@ -1,0 +1,14 @@
+material Dire_Cat0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_cat_dire.tga
+			}
+		}
+	}
+}

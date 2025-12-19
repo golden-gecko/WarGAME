@@ -1,0 +1,126 @@
+material c_skel_com0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_bicep.tga
+			}
+		}
+	}
+}
+material c_skel_com1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_shin.tga
+			}
+		}
+	}
+}
+material c_skel_com2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_torso.tga
+			}
+		}
+	}
+}
+material c_skel_com3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_foot.tga
+			}
+		}
+	}
+}
+material c_skel_com4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_thigh.tga
+			}
+		}
+	}
+}
+material c_skel_com5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_head.tga
+			}
+		}
+	}
+}
+material c_skel_com6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_farm.tga
+			}
+		}
+	}
+}
+material c_skel_com7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_pelvi.tga
+			}
+		}
+	}
+}
+material c_skel_com8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture c_ske_com_hand.tga
+			}
+		}
+	}
+}

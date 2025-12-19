@@ -1,0 +1,17 @@
+material water
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+			depth_write off
+			lighting off
+
+			texture_unit
+			{
+				texture basic_droplet.png
+			}
+		}
+	}
+}

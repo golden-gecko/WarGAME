@@ -1,0 +1,154 @@
+material c_yNPC_h_f040
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_pel.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f041
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_feet.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f042
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_fore.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f043
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_chest.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f044
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_belt.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f045
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_neck.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f046
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_leg.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f047
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_shin.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f048
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_hands.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f049
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_head.tga
+			}
+		}
+	}
+}
+material c_yNPC_h_f0410
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture h_f04_bice.tga
+			}
+		}
+	}
+}

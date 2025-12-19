@@ -1,0 +1,87 @@
+[Palm Tree]
+Species=Palm
+Description=Palm Tree
+Mesh=palmtree.mesh
+MaxHealth=100
+HideFactor=0.4
+Scale=0.03
+
+[Pine Tree]
+Species=Pine
+Description=Pine Tree
+Mesh=pinetree.mesh
+MaxHealth=80
+HideFactor=0.4
+Scale=0.03
+
+[Shrub #1]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub1.mesh
+MaxHealth=10
+HideFactor=0.8
+Scale=0.3
+
+[Shrub #2]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub2.mesh
+MaxHealth=10
+HideFactor=0.7
+Scale=0.3
+
+[Shrub #3]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub3.mesh
+MaxHealth=10
+HideFactor=0.9
+Scale=0.3
+
+[Shrub #4]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub4.mesh
+MaxHealth=13
+HideFactor=0.85
+Scale=0.3
+
+[Shrub #5]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub5.mesh
+MaxHealth=12
+HideFactor=0.8
+Scale=0.3
+
+[Shrub #6]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub6.mesh
+MaxHealth=11
+HideFactor=0.65
+Scale=0.3
+
+[Shrub #7]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub7.mesh
+MaxHealth=10
+HideFactor=0.8
+Scale=0.3
+
+[Shrub #8]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub8.mesh
+MaxHealth=18
+HideFactor=0.95
+Scale=0.3
+
+[Shrub #9]
+Species=Shrub
+Description=Good for hiding.
+Mesh=shrub9.mesh
+MaxHealth=10
+HideFactor=0.9
+Scale=0.3

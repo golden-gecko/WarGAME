@@ -1,0 +1,28 @@
+material bldskyl1_05_0
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture ss3roof.tga
+			}
+		}
+	}
+}
+
+material bldskyl1_05_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture SKYSCRP1.TGA
+			}
+		}
+	}
+}

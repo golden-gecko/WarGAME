@@ -1,0 +1,13 @@
+material VillageStuff
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture VillageStuff.tga
+			}
+		}
+	}
+}

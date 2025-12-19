@@ -1,0 +1,17 @@
+material explosion
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+			depth_write off
+			lighting off
+
+			texture_unit
+			{
+				texture explosion.png
+			}
+		}
+	}
+}

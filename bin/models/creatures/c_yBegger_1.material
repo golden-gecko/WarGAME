@@ -1,0 +1,140 @@
+material c_yBegger0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_neck.tga
+			}
+		}
+	}
+}
+material c_yBegger1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_shin.tga
+			}
+		}
+	}
+}
+material c_yBegger2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_bice.tga
+			}
+		}
+	}
+}
+material c_yBegger3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_head.tga
+			}
+		}
+	}
+}
+material c_yBegger4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_feet.tga
+			}
+		}
+	}
+}
+material c_yBegger5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_pel.tga
+			}
+		}
+	}
+}
+material c_yBegger6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_leg.tga
+			}
+		}
+	}
+}
+material c_yBegger7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_fore.tga
+			}
+		}
+	}
+}
+material c_yBegger8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_hands.tga
+			}
+		}
+	}
+}
+material c_yBegger9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture Beg_chest.tga
+			}
+		}
+	}
+}

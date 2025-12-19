@@ -1,0 +1,28 @@
+material c_archtarget0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture PLC_RugDMtlBrk.tga
+			}
+		}
+	}
+}
+material c_archtarget1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			texture_unit
+			{
+				texture PLC_wood256.tga
+			}
+		}
+	}
+}
