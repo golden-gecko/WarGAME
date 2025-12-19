@@ -1,0 +1,36 @@
+
+material armgeo0
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5
+
+			texture_unit
+			{
+				texture armgeo.bmp
+			}
+		}
+
+	}
+
+}
+
+material armgeo1
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5
+			diffuse 0.2 0.2 0.2 1
+		}
+
+	}
+
+}

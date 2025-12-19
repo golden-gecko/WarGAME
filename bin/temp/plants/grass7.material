@@ -1,0 +1,19 @@
+
+material grass7
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture grass7.tga
+			}
+		}
+	}
+}

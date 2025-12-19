@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="..\..\src\WarGAME.cpp" open="1" top="1">
+		<Cursor position="356" topLine="0"/>
+	</File>
+	<File name="..\..\src\WarGAME.h" open="1" top="0">
+		<Cursor position="292" topLine="0"/>
+	</File>
+	<Expand folder="/Sources/src"/>
+	<Expand folder="/Sources"/>
+	<Expand folder="/Headers/src"/>
+	<Expand folder="/Headers"/>
+</CodeBlocks_layout_file>

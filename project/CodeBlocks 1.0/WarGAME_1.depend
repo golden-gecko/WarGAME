@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1166213254 c:\documents and settings\administrator\pulpit\wargame\src\wargame.cpp
+	"WarGAME.h"
+
+1166213096 c:\documents and settings\administrator\pulpit\wargame\src\wargame.h
+	<windows.h>
+
